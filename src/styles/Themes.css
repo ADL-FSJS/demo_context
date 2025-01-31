@@ -1,0 +1,30 @@
+body {
+    --themeTransitions: color 0.4s cubic-bezier(.5,.1,.9,.5), background-color 0.4s cubic-bezier(.5,.1,.9,.5);
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+.dark header, .dark footer {
+    background-color: #aaa;
+    color: #333;
+}
+
+.light {
+    background-color: #fff;
+    color: #333;
+}
+.light header, .light footer {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark,
+.dark header, 
+.dark footer,
+.light,
+.light header,
+.light footer {
+    transition: var(--themeTransitions);
+}

@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  padding-right: 3em;
+}
+
+main {
+  height: 100vh;
+}
+
+#underHeader {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#centerP {
+  text-align: center;
+}
+
+header {
+  height: fit-content;
+  display: flex;
+  padding: 0.5rem 1.5rem;
+  justify-content: space-between;
+}
