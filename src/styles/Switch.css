@@ -78,4 +78,14 @@ button * {
   #button-1 .layer {
     transition: 0.3s ease all;
   }
+
+  @media (max-width: 640px) {
+    .button { scale: 0.75; }
+  }
+  @media (max-width: 480px) {
+    .button { scale: 0.5; }
+  }
+  @media (max-width: 300px) {
+    .button { scale: 0.3; }
+  }
   

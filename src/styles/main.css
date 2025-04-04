@@ -20,7 +20,8 @@ h1 {
 }
 
 main {
-  height: 100vh;
+  /* ¡IMPORTANTE si queremos ocupar toda la pantalla con el main! */
+  height: 100vh; 
 }
 
 #underHeader {
@@ -37,4 +38,10 @@ header {
   display: flex;
   padding: 0.5rem 1.5rem;
   justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
 }
