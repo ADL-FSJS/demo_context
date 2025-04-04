@@ -1,3 +1,5 @@
+/* Aquí todos los estilos de ambos temas. CSS 100% artesanal */
+
 body {
     --themeTransitions: color 0.4s cubic-bezier(.5,.1,.9,.5), background-color 0.4s cubic-bezier(.5,.1,.9,.5);
 }
